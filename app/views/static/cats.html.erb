@@ -1,0 +1,6 @@
+<h1>Cats, Inc. | Cats</h1>
+<div class="generated-pics">
+  <% @cats.each do |cat| %>
+    <img src="<%= cat.url %>" alt="Cat pic">
+  <% end %>
+</div>
